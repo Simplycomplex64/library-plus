@@ -23,6 +23,10 @@ function App() {
         <h1 className="bannerH1">Banners</h1>
         <h3 className="bannerH1-h3">multi lines</h3>
         <br/>
+        <Banners variant="default" img="" alt="">
+          <h4>Default test</h4>
+          <p>This was just to test what the default would look like.</p>
+        </Banners>
         <Banners variant="green" img="./success.png" alt="success">
           <h4>Congratulation!</h4>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</p>
