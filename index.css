@@ -1,0 +1,255 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+}
+
+.main{
+    height: 100%;
+    text-align: center;
+}
+
+.main h1{
+    margin: 0;
+    padding: 20px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-badge-container h2{
+    margin: 0 0 0 20px;
+}
+
+.square{
+    background-color: lightblue;
+}
+
+.square h2, .pill h2{
+    text-align: start;
+    font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pill{
+    background-color: bisque;
+}
+
+.square-badge-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.pill-badge-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.square-badge-div button {
+    transition: 2.5s ease-in-out;
+    padding: 5px 10px;
+    background-color: #E5E7EB;
+    color: #4B5563;
+    border: 2px solid;
+    cursor: pointer;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.square-badge-div button.button-sm {
+    padding: 7px 11px;
+    font-size: 12px;
+}
+
+.square-badge-div button.button-lg {
+    padding: 30px 40px;
+}
+
+.square-badge-div button.button-red {
+    color: #991B1B;
+    background-color: #FEE2E2;
+    border-color: #991B1B;
+}
+
+.square-badge-div button.button-yellow {
+    color: #92400E;
+    background-color: #FEF3C7;
+    border-color: #92400E;
+}
+
+.square-badge-div button.button-green {
+    color: #065F46;
+    background-color: #D1FAE5;
+    border-color: #065F46;
+}
+
+.square-badge-div button.button-blue {
+    color: #1E40AF;
+    background-color: #DBEAFE;
+    border-color: #1E40AF;
+}
+
+.square-badge-div button.button-indigo {
+    color: #3730A3;
+    background-color: #E0E7FF;
+    border-color: #3730A3;
+}
+
+.square-badge-div button.button-purple {
+    color: #5B21B6;
+    background-color: #EDE9FE;
+    border-color: #5B21B6;
+}
+
+.square-badge-div button.button-pink {
+    color: #ba2c64;
+    background-color: #FCE7F3;
+    border-color: #9b3860;
+}
+
+.pill-badge-div button{
+    border-radius: 20px;
+    transition: 2.5s ease-in-out;
+    padding: 5px 10px;
+    background-color: #E5E7EB;
+    color: #4B5563;
+    border: 2px solid;
+    cursor: pointer;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.pill-badge-div button.button-sm {
+    padding: 7px 11px;
+    font-size: 12px;
+}
+
+.pill-badge-div button.button-lg {
+    padding: 30px 40px;
+}
+
+.pill-badge-div button.button-red {
+    color: #991B1B;
+    background-color: #FEE2E2;
+    border-color: #991B1B;
+}
+
+.pill-badge-div button.button-yellow {
+    color: #92400E;
+    background-color: #FEF3C7;
+    border-color: #92400E;
+}
+
+.pill-badge-div button.button-green {
+    color: #065F46;
+    background-color: #D1FAE5;
+    border-color: #065F46;
+}
+
+.green{
+    color: #065F46;
+    background-color: #D1FAE5;
+    border-color: #065F46;
+}
+
+.yellow{
+    color: #92400E;
+    background-color: #FEF3C7;
+    border-color: #92400E;
+}
+
+.red{
+    color: #991B1B;
+    background-color: #FEE2E2;
+    border-color: #991B1B;
+}
+
+.blue{
+    color: #1E40AF;
+    background-color: #DBEAFE;
+    border-color: #1E40AF;
+}
+
+.pill-badge-div button.button-blue {
+    color: #1E40AF;
+    background-color: #DBEAFE;
+    border-color: #1E40AF;
+}
+
+.pill-badge-div button.button-indigo {
+    color: #3730A3;
+    background-color: #E0E7FF;
+    border-color: #3730A3;
+}
+
+.pill-badge-div button.button-purple {
+    color: #5B21B6;
+    background-color: #EDE9FE;
+    border-color: #5B21B6;
+}
+
+.pill-badge-div button.button-pink {
+    color: #ba2c64;
+    background-color: #FCE7F3;
+    border-color: #9b3860;
+}
+
+/* The banner section starts here */
+
+.main-container{
+    background-color: #5a21b6a9;
+    padding: 10px;
+}
+
+.main{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 5px;
+    gap: 15px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.banner-details{
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.img-container img{
+ width: 17px;
+ margin-top: 1px;
+}
+
+.banner-details p{
+    text-align: left;
+    font-size: 15px;
+}
+
+.banner-details h4, p{
+    margin:0;
+}
+
+.bannerH1, .badgesH1{
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bannerH1{
+    margin-bottom: 0;
+}
+
+.bannerH1-h3{
+    text-align: center;
+    margin: 0;
+}
