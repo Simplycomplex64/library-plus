@@ -74,7 +74,7 @@ function App() {
 
         <Cards variant="blue" img="./warning.png" alt="warning icon">
           <h3>Just one more test</h3>
-          <p>I have a bad habit of double or even triple checking sometime. Well is it a baad habit???</p>
+          <p>I have a bad habit of double or even triple checking sometime. Well is it a bad habit???</p>
         </Cards>
     </>
   );
