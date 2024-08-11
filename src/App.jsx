@@ -43,16 +43,16 @@ function App() {
         <h1 className="bannerH1">Banners</h1>
         <h3 className="bannerH1-h3">single line</h3>
         <br/>
-        <Banners variant="green" img="./public/success.png" alt="success">
+        <Banners variant="green" img="./success.png" alt="success">
           <h4>Congratulation!</h4>
         </Banners>
-        <Banners variant="yellow" img="./public/warning.png" alt="success">
+        <Banners variant="yellow" img="./warning.png" alt="success">
           <h4>Attention</h4>
         </Banners>
-        <Banners variant="red" img="./public/danger.png" alt="success">
+        <Banners variant="red" img="./danger.png" alt="success">
           <h4>There is a problem with your app</h4>
         </Banners>
-        <Banners variant="blue" img="./public/neutral.png" alt="success">
+        <Banners variant="blue" img="./neutral.png" alt="success">
           <h4>Update available</h4>
         </Banners>
     </>
