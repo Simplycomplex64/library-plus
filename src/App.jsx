@@ -2,6 +2,7 @@ import React from "react";
 import Square from "../components/Square";
 import Pill from "../components/Pill";
 import Banners from "../components/Banners";
+import Cards from "../components/Cards";
 
 function App() {
   const handleSquareClick = ({ shape, variant }) => {
@@ -59,6 +60,22 @@ function App() {
         <Banners variant="blue" img="./neutral.png" alt="success">
           <h4>Update available</h4>
         </Banners>
+
+        <h1 className="cardH1">Cards</h1>
+        <Cards variant="indigo" img="./Cloud-upload.png" alt="cloud image">
+          <h3>Easy Deployment</h3>
+          <p>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
+        </Cards>
+
+        <Cards variant="red" img="./success.png" alt="success icon">
+          <h3>Testing reusability</h3>
+          <p>I am so new to this but i am trying my best to understand it. Practice makes perfect. No?</p>
+        </Cards>
+
+        <Cards variant="blue" img="./warning.png" alt="warning icon">
+          <h3>Just one more test</h3>
+          <p>I have a bad habit of double or even triple checking sometime. Well is it a baad habit???</p>
+        </Cards>
     </>
   );
 }
