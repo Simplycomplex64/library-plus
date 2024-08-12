@@ -1,7 +1,7 @@
 html,body{
     margin: 0;
     padding: 5px;
-    background-color: azure;
+    background-color: rgb(72, 137, 137);
 }
 
 .main{
@@ -245,7 +245,7 @@ html,body{
     margin:0;
 }
 
-.bannerH1, .badgesH1, .cardH1{
+.bannerH1, .badgesH1, .cardH1, .testimonialsH1{
     text-align: center;
     font-family: "Permanent Marker", cursive;
   font-weight: 400;
@@ -256,7 +256,7 @@ html,body{
     margin-bottom: 0;
 }
 
-.bannerH1-h3{
+.bannerH1-h3, .testimonialsH1-h3{
     text-align: center;
     margin: 0;
 }
@@ -298,4 +298,107 @@ html,body{
     border-radius: 4px;
     padding: 7px 7px;
 }
+
+.main-testimonial-container {
+    background-color: #2545B8;
+    margin-top: 95px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.main-testimonial-container-nopic{
+    background-color: #ffffff;
+    margin-top: 35px;
+    padding: 10px 10px 0 10px;
+    border-radius: 5px;
+}
+
+.testimonials{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: whitesmoke;
+  position: relative;
+  top: -70px;
+}
+
+.testimonials-nopic{
+    font-family: "Inter", sans-serif;
+  font-style: normal;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonials-text{
+    font-size: 19px;
+    line-height: 25px;
+    width: 95%;
+    color: rgb(255, 255, 255);
+}
+
+.testimonials-text-nopic{
+    font-size: 19px;
+    line-height: 25px;
+    width: 95%;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.TI{
+ width: 35px;
+ margin-top: 25px;
+ margin-bottom: 25px;
+}
+
+.my-image {
+    width: 280px;
+    height: 160px;
+    border-radius: 10px;
+}
+
+.testinopic{
+    width: 140px;
+    border-radius: 10px;
+    margin: 50px auto 20px;
+}
+
+.signature{
+    position: relative;
+    top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.signature-nopic{
+    position: relative;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    background-image: url("./public/Pattern.png");
+    background-size: 140%;
+    width: 150px;
+    height: 100px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.signature h4{
+    margin: 0;
+    font-size: 14px;
+}
+
+.signature-nopic h4{
+    margin: 0;
+    font-size: 14px;
+}
+
+.signature p{
+    font-size: 13px;
+}
+
+.signature-nopic p{
+    font-size: 13px;
+}
+
 
