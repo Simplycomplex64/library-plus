@@ -1,39 +1,48 @@
-html,body{
+html,
+body {
     margin: 0;
     padding: 5px;
     background-color: rgb(72, 137, 137);
 }
 
-.main{
+.main {
     height: 100%;
     text-align: center;
 }
 
-.main h1{
+.main-badge-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main h1 {
     margin: 0;
     padding: 20px;
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
     font-style: normal;
+    font-size: 2vh;
 }
 
-.main-badge-container h2{
+.main-badge-container h2 {
     margin: 0 0 0 20px;
 }
 
-.square{
+.square {
     background-color: lightblue;
     border-radius: 5px;
 }
 
-.square h2, .pill h2{
+.square h2,
+.pill h2 {
     text-align: start;
     font-family: "Permanent Marker", cursive;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.pill{
+.pill {
     background-color: bisque;
     border-radius: 5px;
 }
@@ -62,6 +71,7 @@ html,body{
     font-weight: 700;
     display: flex;
     align-items: center;
+    max-width: 80px;
 }
 
 .square-badge-div button.button-sm {
@@ -115,7 +125,7 @@ html,body{
     border-color: #9b3860;
 }
 
-.pill-badge-div button{
+.pill-badge-div button {
     border-radius: 20px;
     transition: 2.5s ease-in-out;
     padding: 5px 10px;
@@ -126,6 +136,7 @@ html,body{
     font-weight: 700;
     display: flex;
     align-items: center;
+    max-width: 80px;
 }
 
 .pill-badge-div button.button-sm {
@@ -155,31 +166,31 @@ html,body{
     border-color: #065F46;
 }
 
-.green{
+.green {
     color: #065F46;
     background-color: #D1FAE5;
     border-color: #065F46;
 }
 
-.yellow{
+.yellow {
     color: #92400E;
     background-color: #FEF3C7;
     border-color: #92400E;
 }
 
-.red{
+.red {
     color: #991B1B;
     background-color: #a80a0a;
     border-color: #991B1B;
 }
 
-.blue{
+.blue {
     color: #1E40AF;
     background-color: #DBEAFE;
     border-color: #1E40AF;
 }
 
-.indigo{
+.indigo {
     background-color: #3F75FE;
 }
 
@@ -209,13 +220,12 @@ html,body{
 
 /* The banner section starts here */
 
-.main-container{
+.main-container {
     background-color: #5a21b6a9;
-    padding: 10px;
     border-radius: 5px;
 }
 
-.main{
+.main {
     background-color: rgb(255, 255, 255);
     display: flex;
     padding: 5px;
@@ -224,41 +234,68 @@ html,body{
     border-radius: 10px;
 }
 
-.banner-details{
+.banner-details {
     display: flex;
     gap: 3px;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.img-container img{
- width: 17px;
- margin-top: 1px;
+.img-container img {
+    width: 17px;
+    margin-top: 1px;
 }
 
-.banner-details p{
+.banner-details p {
     text-align: left;
     font-size: 15px;
 }
 
-.banner-details h4, p{
-    margin:0;
+.banner-details h4,
+p {
+    margin: 0;
 }
 
-.bannerH1, .badgesH1, .cardH1, .testimonialsH1{
+.bannerH1,
+.badgesH1,
+.cardH1,
+.testimonialsH1 {
     text-align: center;
     font-family: "Permanent Marker", cursive;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.bannerH1{
+.bannerH1 {
     margin-bottom: 0;
 }
 
-.bannerH1-h3, .testimonialsH1-h3{
+.bannerH1-h3,
+.testimonialsH1-h3 {
     text-align: center;
     margin: 0;
+}
+
+.banner-container-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.banner-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-container-container {
+    background-color: lightcyan;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .card-container {
@@ -272,9 +309,10 @@ html,body{
     transition: 0.3s ease-in-out;
     border: 1px solid;
     position: relative;
+    max-width: 320px;
 }
 
-.card-container:hover{
+.card-container:hover {
     background-color: lightgray;
     cursor: pointer;
 }
@@ -299,45 +337,64 @@ html,body{
     padding: 7px 7px;
 }
 
+.testimonials-container-container {
+    max-width: 1000px;
+    margin: 10px auto 0;
+    background-color: lightskyblue;
+    padding: 10px 10px 30px 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
 .main-testimonial-container {
     background-color: #2545B8;
-    margin-top: 95px;
+    margin: 100px auto 20px;
     padding: 10px;
     border-radius: 5px;
+    max-width: 300px;
 }
 
-.main-testimonial-container-nopic{
+.main-testimonial-container-nopic {
     background-color: #ffffff;
-    margin-top: 35px;
+    margin: 100px auto 20px;
     padding: 10px 10px 0 10px;
     border-radius: 5px;
+    max-width: 300px;
 }
 
-.testimonials{
+.testimonials {
     font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  color: whitesmoke;
-  position: relative;
-  top: -70px;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: whitesmoke;
+    position: relative;
+    top: -70px;
+    display: flex;
+    flex-direction: column;
 }
 
-.testimonials-nopic{
+.testi-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials-nopic {
     font-family: "Inter", sans-serif;
-  font-style: normal;
-  color: whitesmoke;
-  display: flex;
-  flex-direction: column;
+    font-style: normal;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    
 }
 
-.testimonials-text{
+.testimonials-text {
     font-size: 19px;
     line-height: 25px;
     width: 95%;
     color: rgb(255, 255, 255);
 }
 
-.testimonials-text-nopic{
+.testimonials-text-nopic {
     font-size: 19px;
     line-height: 25px;
     width: 95%;
@@ -345,36 +402,39 @@ html,body{
     font-weight: 500;
 }
 
-.TI{
- width: 35px;
- margin-top: 25px;
- margin-bottom: 25px;
+.TI {
+    width: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .my-image {
-    width: 280px;
-    height: 160px;
+    width: 100%;
+    max-width: 17.5rem;
+    height: 200px;
     border-radius: 10px;
+    margin: 0 auto;
 }
 
-.testinopic{
+
+.testinopic {
     width: 140px;
     border-radius: 10px;
     margin: 50px auto 20px;
 }
 
-.signature{
+.signature {
     position: relative;
     top: 20px;
     color: rgb(255, 255, 255);
 }
 
-.signature-nopic{
+.signature-nopic {
     position: relative;
     color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
-    align-items:start;
+    align-items: start;
     background-image: url("./public/Pattern.png");
     background-size: 140%;
     width: 150px;
@@ -383,22 +443,194 @@ html,body{
     padding-top: 20px;
 }
 
-.signature h4{
+.signature h4 {
     margin: 0;
     font-size: 14px;
 }
 
-.signature-nopic h4{
+.signature-nopic h4 {
     margin: 0;
     font-size: 14px;
 }
 
-.signature p{
+.signature p {
     font-size: 13px;
 }
 
-.signature-nopic p{
+.signature-nopic p {
     font-size: 13px;
 }
 
+@media screen and (min-width: 426px) {
+    .square-badge-div {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }
 
+    .pill-badge-div {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .card-container-container {
+        background-color: lightcyan;
+        padding: 5px;
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .testimonials-container-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 555px) {
+    .square-badge-div {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .pill-badge-div {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 595px) {
+
+    .banner-container-container,
+    .banner-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 605px) {
+    .testimonials-container-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width: 735px) {
+    .testimonials-container-container {
+        display: flex;
+    }
+
+    .main-testimonial-container {
+        width: 95%;
+        height: 220px;
+        display: flex;
+        max-width: none;
+    }
+
+    .main-testimonial-container-nopic {
+        width: 95%;
+        height: 220px;
+        display: flex;
+        max-width: none;
+    }
+
+    .testimonials {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        gap: 10px;
+    }
+
+    .testimonials-text-nopic{
+        width: 60%;
+        text-align: center;
+    }
+
+    .testimonials-nopic {
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        gap: 10px;
+    }
+
+    .TI {
+        width: 25px;
+        margin: 0 0 20px 0;
+    }
+
+    .my-image {
+        height: 300px;
+        margin: 0;
+    }
+
+    .testinopic{
+        margin: 30px 0 10px 0;
+    }
+
+    .signature-nopic{
+        background-image: none;
+        margin: 0 auto;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 0;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 820px) {
+    .square-badge-div {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .pill-badge-div {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .card-container-container {
+        background-color: lightcyan;
+        padding: 5px;
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1075px) {
+    .square-badge-div {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .pill-badge-div {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        gap: 10px;
+        padding: 20px;
+    }
+}
